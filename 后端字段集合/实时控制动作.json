@@ -10,7 +10,7 @@
 
         "device_number": 1,
 
-        "active_number": 1,
+        "active_code": 1,
 
         "active_args": "{\"location\": 200, \"speed\": 50}"
 

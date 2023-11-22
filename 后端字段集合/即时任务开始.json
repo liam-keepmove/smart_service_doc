@@ -18,7 +18,7 @@
             
             "device_number": 1,  // 设备编号
 
-            "active_number": 1,  // 该设备的动作编号,两个字段可指定某个设备执行某个动作
+            "active_code": 1,  // 该设备的动作编号,两个字段可指定某个设备执行某个动作
             
             "args": "{\"location\": 200, \"speed\": 50}"
             
@@ -34,7 +34,7 @@
             
             "device_number": 1,
             
-            "active_number": 2, 
+            "active_code": 2, 
             
             "args": "{\"direction\": \"back\", \"speed\": 50}"
             
