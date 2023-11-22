@@ -1,0 +1,25 @@
+{
+
+    "id": "^[a-z0-9]+$",
+
+    "type": 7,
+
+    "remark": "开灯",
+
+    "active": {
+
+        "device_number": 1,
+
+        "active_number": 1,
+
+        "active_args": "{\"location\": 200, \"speed\": 50}"
+
+        "remark": "直接以位置模式去终点",
+
+        "tag": ""
+
+    },
+
+    "tag": "",
+
+}

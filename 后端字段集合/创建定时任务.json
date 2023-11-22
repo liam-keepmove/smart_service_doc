@@ -1,0 +1,17 @@
+{
+    "id": "^[a-z0-9]+$",
+    "type": 1,  //消息类型 1创建定时任务;2删除定时任务;3即时任务开始;4即时任务暂停;5即时任务恢复;6即时任务取消;7实时控制动作,8动作反馈;
+    "priority": 1,  //优先级 0-999 任务之间数字越大优先级越高,相同优先级则后执行的任务覆盖当前执行的任务
+    "cron": "* * * * * * *",  //cron表达式
+    "count": 10000,  //任务执行次数,失败也消耗一次    "remark": "定时巡检",  //备注    "tag": "",
+    "action_list": [
+        {
+            "No": 1,  //任务中的动作执行顺序            "device_number": 1,  // 设备编号            "active_number": 1,  // 该设备的动作编号,两个字段可指定某个设备执行某个动作                        "active_args": "{\"location\": 50, \"speed\": 50}"                        "remark": "先以位置模式去火炉",                        "tag": ""        },
+        {
+            "No": 2,                        "device_number": 2,            "active_number": 1,
+            "active_args": "{\"xyz\": [30,49,60]}",
+            "remark": "云台转向右边",                    "tag": "",
+        },                {
+            "No": 3,                        "device_number": 3,            "active_number": 1,                        "active_args": "{\"rect\": [63,175,219,349],\"name\": \"指针仪表\"}",            "remark": "拍照并进行指针仪表识别",                        "tag": "",
+        },                        {            "No": 4,                        "device_number": 2,            "active_number": 1,            "active_args": "{\"xyz\": [89,39,24]}",            "remark": "云台转向正前方",                    "tag": "",        },                {            "No": 5,                        "device_number": 1,                        "active_number": 1,                        "active_args": "{\"location\": 150, \"speed\": 50}"                        "remark": "再以位置模式去管道",                        "tag": ""        },        {            "No": 6,                        "device_number": 2,            "active_number": 1,            "active_args": "{\"xyz\": [35,22,67]}",            "remark": "云台转向右边",                        "tag": "",        },        {            "No": 7,                        "device_number": 3,            "active_number": 2,                        "active_args": "{\"rect\": [1233, 90, 1445, 200],\"name\": \"螺栓松动\"}",            "remark": "拍照并进行图像识别,这是第一张",                        "tag": "",        },                        {            "No": 8,                        "device_number": 3,            "active_number": 2,                        "active_args": "{\"rect\": [1233, 90, 1445, 200],\"name\": \"螺栓松动\"}",            "remark": "拍照并进行图像识别,这是第二张",                        "tag": "",        },                {            "No": 9,            "device_number": 1,            "active_number": 2,                        "active_args": "{\"direction\": \"front\",\"speed\": 70}"                        "remark": "最后以方向模式去终点,限位卡会让其自行停下",                        "tag": ""        }    ]
+}

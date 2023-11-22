@@ -1,0 +1,250 @@
+{
+    "type": 2,
+
+    "task_id": "task_id",
+
+    "count": 1,
+
+    "action_no": 0,
+
+    "time": 913431432423,
+
+    "status": 1,
+     
+    "remark": "即时任务状态 -1急停;0任务暂停;1任务待执行;2动作执行中;3动作执行结果;4任务结束;6任务取消;7机器异常;8指令异常",
+
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 1,
+    
+    "action_no": 1,
+    
+    "time": 913431432423,
+
+    "status": 2,
+    
+    "remark": "前往50点位",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 1,
+    
+    "action_no": 1,
+
+    "time": 913431432423,
+
+    "status": 3,
+    
+    "result": "{\"location\": 49}"
+    
+    "remark": "前往50点位成功",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 1,
+    
+    "action_no": 3,
+
+    "time": 913431432423,
+
+    "status": 3,
+
+    "result": "{\"image\": \"base64\", \"status\": \"succeed\" }"
+
+    "remark": "识别结果",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 1,
+    
+    "action_no": 3,
+    
+    "time": 913431432423,
+
+    "status": 8,
+     
+    "remark": "错误:机器人无此设备",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 1,
+    
+    "action_no": 4,
+    
+    "time": 913431432423,
+
+    "status": 7,
+    
+    "remark": "任务执行失败:机器人电机保护中",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 1,
+    
+    "action_no": 5,
+    
+    "time": 913431432423,
+
+    "status": 6,
+     
+    "remark": "任务取消完成",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 0,
+    
+    "action_no": 0,
+    
+    "time": 913431432423,
+
+    "status": 8,
+    
+    "remark": "任务执行失败:有更高优先级的任务正在执行中",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 0,
+    
+    "action_no": 0,
+    
+    "time": 913431432423,
+
+    "status": 8,
+     
+    "remark": "错误:当前无可取消任务",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 0,
+    
+    "action_no": 0,
+    
+    "time": 913431432423,
+
+    "status": 8,
+     
+    "remark": "错误:当前无可暂停任务",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 0,
+    
+    "action_no": 0,
+    
+    "time": 913431432423,
+
+    "status": 8,
+     
+    "remark": "错误:当前无可恢复任务",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 0,
+    
+    "action_no": 0,
+    
+    "time": 913431432423,
+
+    "status": 8,
+     
+    "remark": "错误:机器人无此动作指令",
+    
+    "tag": "",
+    
+}
+
+{
+    "type": 2,
+    
+    "task_id": "task_id",
+    
+    "count": 0,
+    
+    "action_no": 0,
+    
+    "time": 913431432423,
+
+    "status": 8,
+     
+    "remark": "错误:机器人动作指令的参数有误",
+    
+    "tag": "",
+    
+}
