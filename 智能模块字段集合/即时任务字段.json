@@ -13,7 +13,7 @@
      
     "remark": "即时任务状态 -1急停;0任务暂停;1任务待执行;2动作执行中;3动作执行结果;4任务结束;6任务取消;7机器异常;8指令异常",
 
-    "tag": "",
+    "tag": ""
     
 }
 
@@ -49,7 +49,7 @@
 
     "status": 3,
     
-    "result": "{\"location\": 49}"
+    "result": "{\"location\": 49}",
     
     "remark": "前往50点位成功",
     
@@ -70,7 +70,7 @@
 
     "status": 3,
 
-    "result": "{\"image\": \"base64\", \"status\": \"succeed\" }"
+    "result": "{\"image\": \"base64\", \"status\": \"succeed\" }",
 
     "remark": "识别结果",
     

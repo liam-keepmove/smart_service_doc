@@ -4,7 +4,7 @@
 
     "type": 3,
 
-    "priority": 1
+    "priority": 1,
 
     "remark": "快速巡检",
     
@@ -16,11 +16,11 @@
 
             "No": 1,
             
-            "device_number": 1,  // 设备编号
+            "device_code": "1",  // 设备编号
 
-            "active_code": 1,  // 该设备的动作编号,两个字段可指定某个设备执行某个动作
+            "active_code": "1",  // 该设备的动作编号,两个字段可指定某个设备执行某个动作
             
-            "args": "{\"location\": 200, \"speed\": 50}"
+            "args": "{\"location\": 200, \"speed\": 50}",
             
             "remark": "直接以位置模式去终点",
             
@@ -32,11 +32,11 @@
 
             "No": 2,
             
-            "device_number": 1,
+            "device_code": "1",
             
-            "active_code": 2, 
+            "active_code": "2", 
             
-            "args": "{\"direction\": \"back\", \"speed\": 50}"
+            "args": "{\"direction\": \"back\", \"speed\": 50}",
             
             "remark": "再以方向模式回来,限位器会让其自行停止",
             

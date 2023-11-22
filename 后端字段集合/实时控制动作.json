@@ -8,11 +8,11 @@
 
     "active": {
 
-        "device_number": 1,
+        "device_code": "1",
 
-        "active_code": 1,
+        "active_code": "1",
 
-        "active_args": "{\"location\": 200, \"speed\": 50}"
+        "active_args": "{\"location\": 200, \"speed\": 50}",
 
         "remark": "直接以位置模式去终点",
 
