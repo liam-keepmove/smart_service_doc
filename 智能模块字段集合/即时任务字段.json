@@ -1,5 +1,5 @@
 {
-    "type": 2,
+    "type": 8,
 
     "task_id": "task_id",
 
@@ -18,7 +18,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -37,7 +37,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -58,7 +58,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -79,7 +79,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -98,7 +98,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -117,7 +117,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -136,7 +136,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -155,7 +155,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -174,7 +174,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -193,7 +193,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -212,7 +212,7 @@
 }
 
 {
-    "type": 2,
+    "type": 8,
     
     "task_id": "task_id",
     
@@ -231,8 +231,8 @@
 }
 
 {
-    "type": 2,
-    
+    "type": 8,
+
     "task_id": "task_id",
     
     "count": 0,

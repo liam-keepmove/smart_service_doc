@@ -1,11 +1,11 @@
 {
     "dest_task_id": "task_id",
 
-    "type": 1,
+    "type": 9,
 
     "status": 0,
 
-    "remark": "定时任务相关: 0任务建立成功,1其他可能的错误说明",
+    "remark": "定时任务相关: 1任务建立/删除成功,2其他可能的错误说明",
 
     "tag": ""
 
@@ -15,9 +15,9 @@
 
     "dest_task_id": "task_id",
 
-    "type": 1,
+    "type": 9,
 
-    "status": 1,
+    "status": 2,
 
     "remark": "可能的错误说明",
 
