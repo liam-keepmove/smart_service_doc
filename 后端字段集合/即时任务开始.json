@@ -4,10 +4,14 @@
 
     "type": 3,
 
+	"executed_count": 0,
+	
+	"max_count": 1,
+
     "priority": 1,
 
     "remark": "快速巡检",
-    
+
     "tag": "",
 
     "action_list": [

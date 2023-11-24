@@ -1,9 +1,9 @@
 {
-    "dest_task_id": "task_id",
+    "task_id": "task_id",
 
     "type": 9,
 
-    "status": 0,
+    "status": 1,
 
     "remark": "定时任务相关: 1任务建立/删除成功,2其他可能的错误说明",
 
@@ -13,7 +13,7 @@
 
 {
 
-    "dest_task_id": "task_id",
+    "task_id": "task_id",
 
     "type": 9,
 
