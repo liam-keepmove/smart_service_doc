@@ -1,0 +1,11 @@
+<map id="robot_device::device" name="robot_device::device">
+<area shape="rect" id="node1" title=" " alt="" coords="339,5,496,112"/>
+<area shape="rect" id="node2" href="$classrobot__device_1_1action__body.html" title=" " alt="" coords="21,160,214,457"/>
+<area shape="rect" id="node4" href="$classrobot__device_1_1camera.html" title=" " alt="" coords="247,241,409,377"/>
+<area shape="rect" id="node6" href="$classrobot__device_1_1pad.html" title=" " alt="" coords="451,233,597,384"/>
+<area shape="rect" id="node8" href="$classrobot__device_1_1ptz.html" title=" " alt="" coords="647,233,782,384"/>
+<area shape="rect" id="node3" href="$classrobot__device_1_1action__body__mqtt.html" title=" " alt="" coords="5,505,195,964"/>
+<area shape="rect" id="node5" href="$classrobot__device_1_1camera__mqtt.html" title=" " alt="" coords="219,674,421,795"/>
+<area shape="rect" id="node7" href="$classrobot__device_1_1pad__mqtt.html" title=" " alt="" coords="445,652,621,817"/>
+<area shape="rect" id="node9" href="$classrobot__device_1_1ptz__mqtt.html" title=" " alt="" coords="646,637,818,832"/>
+</map>

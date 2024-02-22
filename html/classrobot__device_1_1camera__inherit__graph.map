@@ -1,0 +1,5 @@
+<map id="robot_device::camera" name="robot_device::camera">
+<area shape="rect" id="node1" title=" " alt="" coords="25,160,187,296"/>
+<area shape="rect" id="node3" href="$classrobot__device_1_1camera__mqtt.html" title=" " alt="" coords="5,344,207,465"/>
+<area shape="rect" id="node2" href="$classrobot__device_1_1device.html" title=" " alt="" coords="27,5,185,112"/>
+</map>
